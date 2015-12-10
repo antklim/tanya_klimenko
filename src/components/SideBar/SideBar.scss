@@ -1,0 +1,21 @@
+@import '../variables.scss';
+
+.SideBar {
+  background: #ffffff;
+  color: #000;
+}
+
+.SideBar-container {
+  margin-right: 20px;
+  width: 150px;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.SideBar-nav {
+
+}

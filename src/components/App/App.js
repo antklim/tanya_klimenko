@@ -5,6 +5,7 @@ import styles from './App.scss';
 import withContext from '../../decorators/withContext';
 import withStyles from '../../decorators/withStyles';
 import Header from '../Header';
+import SideBar from '../SideBar';
 
 @withContext
 @withStyles(styles)
@@ -19,6 +20,7 @@ class App extends Component {
     return !this.props.error ? (
       <div>
         <Header />
+        <SideBar />
         {this.props.children}
       </div>
     ) : this.props.children;
